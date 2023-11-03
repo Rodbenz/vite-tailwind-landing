@@ -6,18 +6,16 @@ import Hero from './components/Hero'
 import About from './components/About'
 import InfoOne from './components/InfoOne'
 import InfoTwo from './components/InfoTwo'
-import { Link, Outlet  } from "react-router-dom";
 
 function App() {
 
   return (
     <>
      <NavBar/>
-     <Outlet/>
-     {/* <Hero/>
+     <Hero/>
      <About/>
      <InfoOne/>
-     <InfoTwo/> */}
+     <InfoTwo/>
     </>
   )
 }

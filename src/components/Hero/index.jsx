@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Hero() {
   return (
-    <div className='bg-gray-900 text-white py-16'>
+    <div className='bg-gray-900 text-white py-20'>
         <div className='container mx-auto text-center'>
             <h1 className='text-5xl font-extrabold'>Welcome to Our Website</h1>
             <p className='text-lg mt-4'>Discover amzing things with TailwindCss.</p>
